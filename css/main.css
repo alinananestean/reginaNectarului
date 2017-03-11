@@ -1,0 +1,335 @@
+/***************************************
+        HEADING SECTION
+***************************************/
+* {
+    box-sizing: border-box;
+}
+
+body {
+		background: #E4E4E4;
+    }
+
+h1, h2, p, li {
+ font-family: 'Raleway', sans-serif;	/* 300 400 600*/
+}
+
+.main-header {
+    background-color: #1E1E1E;
+    padding-top: 20px;
+}
+
+#logo-container h1 {
+	font-size: 30px;
+	margin: 0 auto 35px;
+	font-weight: 600;
+	color: #FFD540;
+  text-align: center;
+	border: none;
+}
+
+#logo-container a {
+ text-decoration: none;	
+}
+
+nav a {
+    padding: 15px 10px;
+    
+}
+
+nav ul {
+    text-align: center;
+    padding: 0;
+		margin: 0;
+}
+
+nav li {
+    font-size: 1.2em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.menu:link {
+    color: #fff;
+    text-decoration: none;
+    }
+
+.menu:visited {
+    color: #fff;
+}
+
+.menu:hover {
+    color: #FFD540;
+		text-decoration: underline;
+}
+
+.active, .active:visited {
+	color: #FFD540;
+} 
+
+#logo {
+    max-width: 110px;
+    display: block;
+    margin: auto;
+		padding-top: 15px;
+	}
+
+/***************************************
+        HOME PAGE
+***************************************/
+
+#wrapper {
+    max-width: 90%;
+    margin: 20px auto;
+		padding-top: 10px;
+	  background: #fff;		
+}
+
+#wrapper h1 {
+	margin: 0;
+	font-size: 28px;
+	color: #1d1d1d;
+	text-align: center;
+}
+
+#wrapper ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#wrapper li img {
+    width: 100%;
+		padding: 10px 10px 0;
+		
+}
+
+#wrapper li p {
+    text-align: center;
+    color: #1D1D1D;
+    font-size: 1.4em;
+    padding: 7px 0 35px;
+		margin: 0;
+}
+/***************************************
+          FOOTER SECTION
+***************************************/
+
+
+.main-footer p {
+    font-size: .8em;
+    font-weight: 300;
+    text-align: center;
+    color:  #FFD540;
+    margin: 0;
+ }
+
+
+.main-footer {
+    background: #1E1E1E;
+    padding-top: 35px;
+		padding-bottom: 10px;
+}
+
+/***************************************
+          INFO PAGE
+***************************************/
+
+.info-section {
+		max-width: 90%;
+    margin: 20px auto;
+		background: #fff;
+		padding: 30px 10px;
+}
+
+.info-section h1 {
+		margin: 0;
+		font-size: 25px;
+		color: #1d1d1d;
+		padding-top: 10px;
+		text-align: center;
+	  }
+
+.info-section h2 {
+		font-size: 20px;
+		color: #1D1D1D;
+		text-align: center;
+		font-weight: 400;
+}
+
+
+.info-section p {
+	color: #1E1E1E;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+	line-height: 25px;
+	margin-bottom: 0;
+}
+
+
+/***************************************
+          ARROW: IFO&API PAGES
+***************************************/
+.arrow-up {
+ width: 25px;
+	position: absolute;
+	right: 0;
+	
+}
+
+.arrow-up:hover {
+	background-color: #FFD540;
+}
+
+/***************************************
+          RETETE PAGE
+***************************************/
+.gallery {
+		max-width: 90%;
+    margin: 20px auto;
+		padding: 30px 10px;
+	  background: #fff;
+}
+
+.gallery h1 {
+		font-size: 25px;
+		text-align: center;
+		color: #1d1d1d;
+		padding-top: 10px;
+		margin: 0;
+	  }
+
+.gallery ul {
+	padding: 0;
+}
+
+.gallery ul li {
+	list-style-type: none;
+	font-size: 22px;
+	}
+
+.gallery li:nth-child(odd) {
+	background: #1e1e1e;
+	color: #FFD540;
+	padding: 70px;
+	text-align: center;
+	margin: 0;
+}
+
+.gallery li:nth-child(even) {
+	padding: 70px;
+	text-align: center;
+}
+
+.api-odd-links:link {
+	text-decoration: none;
+	color: #FFD540;
+}
+
+.api-odd-links:hover {
+    color: #FFD540;
+		text-decoration: underline;
+}
+
+.api-odd-links:visited {
+    color: #FFD540;
+}
+
+.api-even-links:link {
+	text-decoration: none;
+	color: #1d1d1d;
+}
+
+.api-even-links:hover {
+    color: #1d1d1d;
+		text-decoration: underline;
+}
+
+.api-even-links:visited {
+    color: #1d1d1d;
+}
+/*************************
+  RETETE BOTOM LINE NAV
+*************************/
+.api-list  li {
+	display: block;
+	background: #1e1e1e;
+	padding: 12px;
+	text-align: center;
+	
+}
+
+.api-list ul {
+	padding-left: 0;
+	margin-top: 30px;
+}
+
+.api-list a:link {
+	text-decoration: none;
+	color: #FFD540;
+}
+
+.api-list-line:visited {
+	color: #FFD540;
+}
+
+.api-list a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+
+.activ, .activ:visited {
+	color: #fff;
+}
+
+/***************************************
+        API PAGES
+***************************************/
+.phapagraph-ceara {
+	margin-top: 0;
+}
+
+/***************************************
+          CONTACT PAGE
+***************************************/
+
+.contact {
+		max-width: 90%;
+    margin: 20px auto;
+		padding: 30px 10px;
+	  background: #fff;
+}
+
+#map {
+	width: 90%;
+	display: block;
+	margin: auto;
+	margin-top: 25px;
+}
+
+
+.primary p, .secondary p {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 30px;
+		}
+
+#fb {
+	text-decoration: none;
+	color: #1e1e1e;
+	}
+
+#fb:link {
+	color: #1e1e1e;
+}
+
+#fb:visited {
+	color: #1e1e1e;
+}
+
+#fb:hover {
+	color: #FFD540;
+}
